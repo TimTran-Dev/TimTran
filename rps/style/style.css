@@ -1,0 +1,78 @@
+body{
+  font-size: 10px;
+  background-image: url(https://www.afiniti.com/static/media/heroimg.ddffaa34.png);
+  background-size: 100%;
+}
+h1 {
+  text-align: center;
+  color: gray;
+  font-size: 3rem;
+}
+p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+}
+strong{
+  color: gray;
+}
+.scoreboard {
+  /* text-align: center; */
+  /* border: 1px solid black; */
+  width: 34%;
+  margin-left: 33%
+}
+.board h2{
+  /* border-bottom: 1px solid black; */
+  color: white;
+  font-size: 2rem;
+}
+table {
+  margin:0;
+  display: inline;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.rps button:first-of-type{
+  margin-left: 41%;
+}
+button {
+  padding: 1%;
+  margin-right: 1%;
+  font-size: 1rem;
+  color: white;
+  background-color: #00000073;
+  border-radius: 5px;
+}
+tr {
+  margin-left: 25%;
+}
+tr td {
+  font-size: 3rem;
+  color: white;
+  display: inline;
+  margin-left: 120%;
+}
+.player {
+  /* margin-right: 20%; */
+}
+.playerBot th{
+  font-size: 2rem;
+  color: white;
+  margin-left: 100%;
+  display: inline;
+}
+}
+tfoot {
+  margin-left: 25%;
+}
+#status {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+}

@@ -1,0 +1,601 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 10px;
+}
+header {
+  width: 100%;
+  /* height: 70px; */
+  border: 0px solid black;
+}
+header nav ul li {
+  display: inline;
+  padding-right: 82px;
+  font-size: 1rem;
+}
+header nav ul {
+  float: left;
+}
+header button {
+  display: inline;
+  margin-top: 0.5%;
+  background-color: black;
+  color: white;
+}
+/* header,footer,section {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 15px;
+} */
+.master {
+  width: 100%;
+  padding: 0;
+  float: left;
+}
+.jwli {
+  width: 100%;
+  /* height: 300px; */
+  border: 1px solid black;
+  padding: 0;
+  float: left;
+  background-color: rgb(245, 243, 243);
+}
+.leftTop {
+  width: 65%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+  background-color: rgb(245, 243, 243);
+  padding-bottom: 2%;
+}
+.rightTop {
+  width: 35%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+  padding: 0;
+  background-color: rgb(245, 243, 243);
+}
+.photo {
+  width: 100%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+  padding: 0;
+  background-color: rgb(245, 243, 243);
+}
+.photo img {
+  width: 100%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+  height: 300px;
+}
+.japanese {
+  float: left;
+  width: 100%;
+  /* height: 72px; */
+  border: 0px solid black;
+}
+.japanese h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+.japanese p {
+  margin: 0;
+  font-size: 1rem;
+  padding-bottom: 2%;
+  width: 58%;
+}
+.form {
+  width: 100%;
+  /* height: 44px; */
+  float: left;
+  border:0px solid black;
+}
+.form p {
+  font-size: 13px;
+  padding-top: 10px;
+}
+.form input,button {
+  font-size: 20px;
+}
+.form button {
+  background-color: rgb(169, 184, 196);
+  color: white;
+  border-radius: 10%;
+}
+.logo {
+  width: 100%;
+  /* height: 100px; */
+  float: left;
+  padding-left: 76px;
+  float: left;
+}
+.logo img {
+  width: 40%;
+  /* height: 80px; */
+  float: left;
+}
+.change {
+  width: 100%;
+  /* height: 240px; */
+  border: 0px solid black;
+  padding: 0;
+  float: left;
+}
+.topLine {
+  width: 100%;
+  /* height: 100px; */
+  border: px solid black;
+  float: left;
+}
+.topLine h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.leftPara {
+  width: 50%;
+  /* height: 100px; */
+  border: 0px solid black;
+  float: left;
+}
+.leftPara h4{
+  font-weight: lighter;
+  font-size: 1rem;
+  padding-left: 31%;
+}
+.leftPara span {
+  font-weight: bold;
+}
+.rightPara {
+  width: 50%;
+  /* height: 100px; */
+  border: 0px solid black;
+  float: left;
+}
+.rightPara h4{
+  padding-left: 9%;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding-right: 28%;
+}
+.rightPara span {
+  font-weight: bold;
+}
+.botLine {
+  width: 100%;
+  /* height: 100px; */
+  border: 0px solid black;
+  float: left;
+}
+.botLine h4 {
+  text-align: center;
+  font-weight: lighter;
+  color: lightgray;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+}
+.history {
+  width: 100%;
+  /* height: 560px; */
+  border: 0px solid black;
+  padding: 0;
+  background-color: rgb(237, 240, 243);
+  float: left;
+}
+.our {
+  width: 60%;
+  /* height: 560px; */
+  border: 0px solid black;
+  float: left;
+}
+.our h3 {
+  font-size: 2rem;
+}
+.our p {
+  font-size: 1rem;
+}
+.photoOne {
+  width: 40%;
+  /* height: 280px; */
+  border: 0px solid black;
+  float: left;
+}
+.photoOne img {
+  width: 70%;
+  height: 250px;
+  float: left;
+  margin-left: 30%;
+}
+.photoTwo {
+  width: 40%;
+  /* height: 280px; */
+  border: 0px solid black;
+  float: left;
+}
+.photoTwo img {
+  width: 70%;
+  height: 250px;
+  float: left;
+  margin-left: 30%;
+}
+.photoOne,.photoTwo p {
+  text-align: center;
+}
+.who {
+  width: 100%;
+  /* height: 100px; */
+  border: 0px solid black;
+  text-align: center;
+  float: left;
+}
+.fish {
+  width: 100%;
+  /* height: 300px; */
+  border: 1px solid lightgray;
+  margin-right: 0;
+  float: left;
+}
+.atsuko {
+  width: 25%;
+  /* height: 250px; */
+  float: left;
+}
+.bio h3 {
+  font-size: 2rem;
+}
+.bio p {
+  font-size: 1rem;
+}
+.atsuko img {
+  width: 100%;
+  /* height: 250px; */
+  float: left;
+  padding-right: 25px;
+}
+.family {
+  width: 100%;
+  /* height: 300px; */
+  border: 0px solid black;
+  padding: 0;
+  float: left;
+}
+.leftFam {
+  width: 50%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+}
+.leftFam h3 {
+  font-size: 15px;
+  color: gray;
+  font-weight: lighter;
+}
+.leftFam p {
+  font-size: 0.8rem;
+  width: 80%;
+}
+.rightFam {
+  width: 50%;
+  /* height: 300px; */
+  border: 0px solid black;
+  float: left;
+}
+.rightFam p{
+  width: 80%;
+  font-size: 0.8rem;
+}
+.rightFam h3 {
+  margin-bottom: 2px;
+  font-size: 22px;
+  border-bottom: 1px solid lightgray;
+  width: 22%;
+  font-weight: lighter;
+  margin-top: 0;
+  color: gray;
+}
+.rightFam p:first-of-type {
+  font-size: 8px;
+  margin-top: 0;
+  color: gray;
+}
+.newsletter {
+  width: 100%;
+  /* height: 40px; */
+  border: 0px solid black;
+  padding: 0;
+  float: left;
+}
+.signUp {
+  width: 40%;
+  /* height: 40px; */
+  border: 0px solid black;
+  float: left;
+  background-color: rgb(150, 186, 218);
+
+}
+.signUp h3 {
+  margin-left: 90px;
+  margin-top: 8px;
+  color: white;
+}
+.email {
+  width: 60%;
+  /* height: 40px; */
+  border: 0px solid black;
+  float: left;
+  background-color: rgb(150, 186, 218);
+}
+.email input {
+  width: 40%;
+  font-size: 20px;
+}
+.email form {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 4px;
+}
+.email button {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(145, 154, 162);
+}
+footer {
+  width: 100%;
+  /* height: 319px; */
+  border: 0px solid black;
+  background-color: rgb(145, 154, 162);
+  float: left;
+}
+.copyRight {
+  width: 100%;
+  /* height: 70px; */
+  border: 0px solid black;
+  border-bottom: 1px solid white;
+  float: left;
+  background-color: rgb(145, 154, 162);
+  padding: 0;
+  clear: both;
+}
+.copyRight p {
+  margin-left: 77px;
+  color: white;
+  float: left;
+}
+.copyRight ul li {
+  display: inline;
+  margin-left: 1%;
+  color: white;
+}
+.copyRight ul li:first-of-type {
+  margin-left: 60%;
+}
+/* .social {
+  width: 40%;
+  height: 70px;
+  border: 0px solid black;
+  border-bottom: 1px solid white;
+  float: left;
+  color: white;
+  background-color: rgb(145, 154, 162);
+}
+.social ul li {
+  display: inline;
+  padding-right: 15px;
+}
+.social ul li:first-of-type {
+  margin-left: 5px;
+} */
+.home {
+  width: 16%;
+  /* height: 228px; */
+  border: 0px solid black;
+  float: left;
+  color: white;
+  background-color: rgb(145, 154, 162);
+  padding-bottom: 6%;
+}
+.home ul {
+  margin-left: 38px;
+}
+.home ul li:first-of-type {
+  font-weight: bold;
+}
+.home ul li {
+  list-style: none;
+  line-height: 30px;
+}
+.program {
+  width: 16%;
+  /* height: 228px; */
+  border: 0px solid black;
+  float: left;
+  color: white;
+  background-color: rgb(145, 154, 162);
+  padding-bottom: 3%;
+}
+.program ul {
+  padding: 0;
+}
+.program ul li:first-of-type {
+  font-weight: bold;
+}
+.program ul li {
+  list-style: none;
+  line-height: 30px;
+}
+.jwl {
+  width: 16%;
+  /* height: 228px; */
+  border: 0px solid black;
+  float: left;
+  color: white;
+  background-color: rgb(145, 154, 162);
+  padding-bottom: 6%;
+}
+.jwl ul {
+  padding: 0;
+}
+.jwl ul li:first-of-type{
+  font-weight: bold;
+}
+.jwl ul li {
+  list-style: none;
+  line-height: 30px;
+}
+.fellow {
+  width: 52%;
+  /* height: 228px; */
+  border: 0px solid black;
+  float: left;
+  color: white;
+  background-color: rgb(145, 154, 162);
+  padding-bottom: 20%;
+}
+.fellow ul li{
+  display: inline;
+  padding-right: 38px;
+}
+.fellow ul {
+  text-align: right;
+}
+.fellow ul li:last-of-type{
+  margin-right: 50px;
+}
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .jwli {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .topLine h2{
+    padding: 0;
+  }
+  .leftPara {
+    width: 100%;
+    text-align: center;
+  }
+  .leftPara h4{
+    padding: 0;
+  }
+  .rightPara {
+    width: 100%;
+    text-align: center;
+  }
+  .rightPara h4{
+    padding: 0;
+  }
+  .atsuko {
+    width: 100%;
+  }
+  .atsuko img{
+    width: 50%;
+    margin-left: 29%;
+  }
+  .bio {
+    width: 100%;
+    float: left;
+  }
+  .bio h3 {
+    text-align: center;
+  }
+  .bio p {
+    text-align: center;
+  }
+  .leftFam {
+    width: 100%;
+    float: left;
+  }
+  .rightFam {
+    width: 100%;
+    float: left;
+  }
+  .signUp h3{
+    margin-left: 5%;
+  }
+  .email form {
+    padding-bottom: 1px;
+  }
+  .email button {
+    font-size: 1.2rem;
+  }
+  .email input {
+    width: 55%;
+    font-size: 1.2rem;
+  }
+  footer{
+    display: none;
+  }
+}
+/* tablet */
+@media (min-width: 601px) and (max-width: 800px) {
+  header nav {
+    display: none;
+  }
+  header button {
+    float: right;
+  }
+  .rightTop {
+    display: none;
+  }
+  .leftTop {
+    width: 100%;
+  }
+  .logo img {
+    margin-left: 22%;
+  }
+  .japanese {
+    text-align: center;
+  }
+  .japanese p {
+    display: inline;
+  }
+  .form p {
+    font-size: 0.8rem;
+    padding-top: 6%;
+    width: 30%;
+    font-weight: bold;
+  }
+  .who h3 {
+    font-size: 1.3rem;
+  }
+  .leftFam {
+    width: 100%;
+    float: left;
+  }
+  .leftFam p {
+    text-align: center;
+    margin-left: 10%;
+  }
+  .leftFam h3 {
+    text-align: center;
+  }
+  .rightFam {
+    width: 100%;
+    float: left;
+  }
+  .rightFam p {
+    text-align: center;
+    margin-left: 10%;
+  }
+  .rightFam h3 {
+    display: inline;
+    margin-left: 43%;
+  }
+}
+@media (min-width: 801px) and (max-width: 1243px) {
+  .photo img {
+    height: 269px;
+    float: left;
+  }
+}
